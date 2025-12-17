@@ -1,0 +1,6 @@
+@WixInstallation_HostAddress = http://localhost:5197
+
+GET {{WixInstallation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
